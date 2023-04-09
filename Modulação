@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(){
+    int n;
+    
+    printf("Digite um número inteiro");
+    scanf("%d",&n);
+    
+    if(n % 2 == 0){
+        printf("%d É número par",n);
+    }
+    else{
+        printf("%d É impar",n);
+    }
+    
+    return 0;
+    
+    
+}
