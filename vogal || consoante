@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    char let;
+    printf("Digite uma Letra: ");
+    scanf("%c",&let);
+    
+    if(let == 'A' || let == 'E' || let == 'I'|| let == 'O'|| let == 'U' || let == 'a' || let == 'e' || let == 'i'|| let == 'o'|| let == 'u'){
+        printf("%c A letra é uma vogal",let);
+    }
+    
+    else{
+        printf("%c É uma consoante",let);
+    }
+    return 0;
+}
